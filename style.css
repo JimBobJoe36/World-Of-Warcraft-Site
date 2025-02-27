@@ -11,14 +11,18 @@ body{
     background-color: #b99100;
     color: #ffffff;
 }
-.map {
+.container {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
-   }
+}
    
-   img {
-     max-width: 100%;
-     max-height:100%;
-   }
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.text {
+    font-size: 30;
+}
