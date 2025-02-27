@@ -1,0 +1,28 @@
+#title{
+    text-align: center;
+    color:#ffc800
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #404040;
+    color: #f7e18f
+}
+.button{
+    background-color: #b99100;
+    color: #ffffff;
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+   
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.text {
+    font-size: 50;
+}
